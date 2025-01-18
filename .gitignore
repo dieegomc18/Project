@@ -30,3 +30,21 @@
 *.exe
 *.out
 *.app
+
+# CMake cache and other configuration files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+# User-specific files
+*.user
+*.sublime-project
+*.sublime-workspace
+# IDE files (add your IDE-specific files here)
+/vscode/
+.idea/
+.idea/modules.xml
+
+# CMake build directory
+/build/
+/cmake-build-debug/
